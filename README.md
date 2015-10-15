@@ -13,13 +13,13 @@ The two notebooks are:
 
 The first notebook is merely a tool to extract the f1 and f2 data for all the elements and combine them into a calculation for compounds. For example, here are f1 and f2 for Copper and Oxygen. 
 
-![f1 and f2 for Cu and O](https://raw.github.com/andrewachkar/thesiscode/master/fig/SXR_f1f2_HenkeChantler.png)
+![f1 and f2 for Cu and O](https://raw.githubusercontent.com/andrewachkar/thesiscode/master/figs/SXR_f1f2_HenkeChantler.png)
 
 The second notebook takes f2, the imaginary part of f, and performs a Kramers-Kronig transformation in order to determine the real part f1. This is a useful framework for stitching tabulated data to experimental X-ray absorption data and obtaining reliable Kramers-Kronig transforms in the near edge structure.   
 
 Some example calculations using this code are shown here, which compute f1 from f2 and then compare the result to the official tabulated version. 
 
-![f1 calculation for a few elements compared to tabulated results](https://raw.github.com/andrewachkar/thesiscode/master/fig/f1_NIST_CALC.png)
+![f1 calculation for a few elements compared to tabulated results](https://raw.githubusercontent.com/andrewachkar/thesiscode/master/figs/f1_NIST_CALC.png)
 
 This work originates from my [PhD thesis](https://uwspace.uwaterloo.ca/handle/10012/9255). See chapter 2 for more details.  
 
