@@ -9,6 +9,7 @@ This repository contains tabulations of the theoretical and empirical atomic sca
 The two notebooks are:
 
 1. `f1f2mu_Henke_Chantler.nb`
+
 2. `KramersKronig_atomicNIST.nb`
 
 The first notebook is merely a tool to extract the f1 and f2 data for all the elements and combine them into a calculation for compounds. For example, here are f1 and f2 for Copper and Oxygen. 
@@ -25,8 +26,11 @@ This work originates from my [PhD thesis](https://uwspace.uwaterloo.ca/handle/10
 
 
 The database files are:
+
 1. `f1f2_Henke.dat`
+
 2. `f1f2_NIST.dat`
+
 
 
 ## Sources
