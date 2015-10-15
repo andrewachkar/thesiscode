@@ -7,19 +7,26 @@ This repository contains tabulations of the theoretical and empirical atomic sca
 ## Contents
 
 The two notebooks are:
-1. f1f2mu\_Henke\_Chantler.nb
-2. KramersKronig\_atomicNIST.nb
 
-The first notebook is merely a tool to extract the f1 and f2 data for all the elements and combine them into a calculation for compounds. 
+1. `f1f2mu_Henke_Chantler.nb`
+2. `KramersKronig_atomicNIST.nb`
+
+The first notebook is merely a tool to extract the f1 and f2 data for all the elements and combine them into a calculation for compounds. For example, here are f1 and f2 for Copper and Oxygen. 
+
+![f1 and f2 for Cu and O](https://raw.github.com/andrewachkar/thesiscode/master/fig/SXR_f1f2_HenkeChantler.png)
 
 The second notebook takes f2, the imaginary part of f, and performs a Kramers-Kronig transformation in order to determine the real part f1. This is a useful framework for stitching tabulated data to experimental X-ray absorption data and obtaining reliable Kramers-Kronig transforms in the near edge structure.   
 
-This work originates from my [PhD thesis](https://uwspace.uwaterloo.ca/handle/10012/9255), which explains all of this in substantially more detail (see Ch 2). 
+Some example calculations using this code are shown here, which compute f1 from f2 and then compare the result to the official tabulated version. 
+
+![f1 calculation for a few elements compared to tabulated results](https://raw.github.com/andrewachkar/thesiscode/master/fig/f1_NIST_CALC.png)
+
+This work originates from my [PhD thesis](https://uwspace.uwaterloo.ca/handle/10012/9255). See chapter 2 for more details.  
 
 
 The database files are:
-1. f1f2\_Henke.dat
-2. f1f2\_NIST.dat
+1. `f1f2_Henke.dat`
+2. `f1f2_NIST.dat`
 
 
 ## Sources
